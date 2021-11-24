@@ -11,7 +11,7 @@
             <v-row class="fill-height ma-0" align="center" justify="center">
               <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
             </v-row>
-          </template>
+          </template> 
         </v-img>
       </v-col>
       <v-col md="9" sm="6" cols="12" class="px-0">
@@ -21,8 +21,8 @@
           style="font-weight: 350;font-size:230%"
         >
           <b>
-            Make good things
-            <span style="color: #1a73e8;">together</span>.
+            Tecnologías de la Información en la
+            <span style="color: #00ab86;">UTOM</span>.
           </b>
         </p>
         <p class="google-font mt-0 mb-0" style="font-size:150%">{{config.generalConfig.name}}</p>
