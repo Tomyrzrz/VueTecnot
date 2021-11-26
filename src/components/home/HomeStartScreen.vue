@@ -43,6 +43,13 @@
               small
               class="mr-1"
             >#esports</v-chip>
+            <v-chip
+              :href="'https://twitter.com/hashtag/televisa'"
+              rel="noreferrer"
+              target="_blank"
+              small
+              class="mr-1"
+            >#televisa</v-chip>
           </span>
         </p>
 
