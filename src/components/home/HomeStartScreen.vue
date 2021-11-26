@@ -28,15 +28,21 @@
         <p class="google-font mt-0 mb-0" style="font-size:150%">La mejor Carrera del Mundo</p>
         <p class="google-font" style="font-size:100%">Es la carrera del futuro puesto que en el futuro sera una profesion que todos van a requerir en el mundo digital</p>
         <p class="google-font" style="font-size:100%;color:#9e9e9e">
-          <span v-for="(item,i) in config.generalConfig.hashtags" :key="i">
+          <span>
             <v-chip
-              :href="'https://twitter.com/hashtag/'+item"
+              :href="'https://twitter.com/hashtag/rvys'"
               rel="noreferrer"
               target="_blank"
               small
               class="mr-1"
-            >#{{item}}</v-chip>
-            <!-- &nbsp; -->
+            >#Timo</v-chip>
+            <v-chip
+              :href="'https://twitter.com/hashtag/esports'"
+              rel="noreferrer"
+              target="_blank"
+              small
+              class="mr-1"
+            >#esports</v-chip>
           </span>
         </p>
 
@@ -48,7 +54,7 @@
           aria-label="Become a Member"
           class="ma-0 google-font elevation-1 primary mr-2"
           style="text-transform: capitalize;border-radius:5px;color:white"
-        >Become a Member</v-btn>
+        >Se UTOM - Se TIC</v-btn>
         <v-btn
           v-if="checkExistance(config.generalConfig.learnMoreLink,0)"
           :href="config.generalConfig.learnMoreLink"
@@ -61,7 +67,7 @@
           outlined
           class="ml-0"
           dark
-        >Learn More</v-btn>
+        >Saber Mas</v-btn>
       </v-col>
     </v-row>
   </v-container>
