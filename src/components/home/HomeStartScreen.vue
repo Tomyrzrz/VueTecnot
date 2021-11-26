@@ -25,7 +25,7 @@
             <span style="color: #00ab86;">UTOM</span>.
           </b>
         </p>
-        <p class="google-font mt-0 mb-0" style="font-size:150%">{{config.generalConfig.name}}</p>
+        <p class="google-font mt-0 mb-0" style="font-size:150%">La mejor Carrera del Mundo</p>
         <p class="google-font" style="font-size:100%">{{config.generalConfig.shortDescription}}</p>
         <p class="google-font" style="font-size:100%;color:#9e9e9e">
           <span v-for="(item,i) in config.generalConfig.hashtags" :key="i">
